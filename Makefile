@@ -1,10 +1,13 @@
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
+
+install-azu:
+	pip install --upgrade pip &&\
+		pip install -r requirements-azu.txt
 		
-		
-# format:
-# 	black *.py
+format:
+	black *.py
 	
 	
 lint:
